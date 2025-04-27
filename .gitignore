@@ -1,0 +1,6 @@
+# Logs, node_modules e arquivos de build
+node_modules/
+dist/
+# Arquivos de ambiente
+.env
+.env.local

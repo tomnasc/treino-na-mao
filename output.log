@@ -1,0 +1,127 @@
+
+> treino-na-mao@0.1.0 dev
+> next dev
+
+   ▲ Next.js 15.3.1
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.1.73:3000
+   - Environments: .env.local, .env
+
+ ✓ Starting...
+ ✓ Ready in 1387ms
+ ○ Compiling / ...
+ ⨯ ./src/components/Navigation.tsx:3:1
+Module not found: Can't resolve 'react-router-dom'
+  1 | // src/components/Navigation.tsx
+  2 | import React from "react";
+> 3 | import { Link, useLocation, useNavigate } from "react-router-dom";
+    | ^
+  4 | import { Button } from "./ui/button";
+  5 | import { useAuth } from "../contexts/AuthContext";
+  6 | import {
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./src/components/layout/PageLayout.tsx
+./src/pages/LandingPage.tsx
+./src/pages/index.tsx
+ ⨯ ./src/components/Navigation.tsx:3:1
+Module not found: Can't resolve 'react-router-dom'
+  1 | // src/components/Navigation.tsx
+  2 | import React from "react";
+> 3 | import { Link, useLocation, useNavigate } from "react-router-dom";
+    | ^
+  4 | import { Button } from "./ui/button";
+  5 | import { useAuth } from "../contexts/AuthContext";
+  6 | import {
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./src/components/layout/PageLayout.tsx
+./src/pages/LandingPage.tsx
+./src/pages/index.tsx
+ ⨯ ./src/components/Navigation.tsx:3:1
+Module not found: Can't resolve 'react-router-dom'
+  1 | // src/components/Navigation.tsx
+  2 | import React from "react";
+> 3 | import { Link, useLocation, useNavigate } from "react-router-dom";
+    | ^
+  4 | import { Button } from "./ui/button";
+  5 | import { useAuth } from "../contexts/AuthContext";
+  6 | import {
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./src/components/layout/PageLayout.tsx
+./src/pages/LandingPage.tsx
+./src/pages/index.tsx
+ GET / 500 in 4400ms
+ ⨯ ./src/lib/services/index.ts:5:1
+Module not found: Can't resolve './ai.service'
+  3 | import ExerciseService from './exercise.service';
+  4 | import TrainingService from './training.service';
+> 5 | import AIService from './ai.service';
+    | ^
+  6 | import LocalStorageService from './local-storage.service';
+  7 | import SubscriptionService from './subscription.service';
+  8 |
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./src/contexts/TrainingContext.tsx
+./src/pages/_app.tsx
+ ⨯ ./src/lib/services/index.ts:5:1
+Module not found: Can't resolve './ai.service'
+  3 | import ExerciseService from './exercise.service';
+  4 | import TrainingService from './training.service';
+> 5 | import AIService from './ai.service';
+    | ^
+  6 | import LocalStorageService from './local-storage.service';
+  7 | import SubscriptionService from './subscription.service';
+  8 |
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./src/contexts/TrainingContext.tsx
+./src/pages/_app.tsx
+ ⨯ ./src/lib/services/index.ts:5:1
+Module not found: Can't resolve './ai.service'
+  3 | import ExerciseService from './exercise.service';
+  4 | import TrainingService from './training.service';
+> 5 | import AIService from './ai.service';
+    | ^
+  6 | import LocalStorageService from './local-storage.service';
+  7 | import SubscriptionService from './subscription.service';
+  8 |
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./src/contexts/TrainingContext.tsx
+./src/pages/_app.tsx
+ GET / 500 in 230ms
+ GET / 500 in 30ms
+ ⨯ ./src/lib/services/index.ts:5:1
+Module not found: Can't resolve './ai.service'
+  3 | import ExerciseService from './exercise.service';
+  4 | import TrainingService from './training.service';
+> 5 | import AIService from './ai.service';
+    | ^
+  6 | import LocalStorageService from './local-storage.service';
+  7 | import SubscriptionService from './subscription.service';
+  8 |
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./src/contexts/TrainingContext.tsx
+./src/pages/_app.tsx
+ ⨯ Module not found: Error: Can't resolve 'next-flight-client-entry-loader' in '/Users/everton/treino-na-mao/treino-na-mao'
+ ⨯ Module not found: Error: Can't resolve 'next-flight-client-entry-loader' in '/Users/everton/treino-na-mao/treino-na-mao'
+ ⨯ Module not found: Error: Can't resolve 'next-flight-client-entry-loader' in '/Users/everton/treino-na-mao/treino-na-mao'
+ ⨯ Module not found: Error: Can't resolve 'next-flight-client-entry-loader' in '/Users/everton/treino-na-mao/treino-na-mao'
